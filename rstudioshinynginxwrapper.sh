@@ -13,9 +13,9 @@ sudo apt-get update && sudo apt-get install r-base r-base-dev -y
 
 # Install RStudio-Server
 sudo apt-get install gdebi-core -y
-wget https://download2.rstudio.org/server/xenial/amd64/rstudio-server-1.1.447-amd64.deb
-sudo gdebi rstudio-server-1.1.447-amd64.deb
-rm rstudio-server-1.1.447-amd64.deb
+wget https://download2.rstudio.org/rstudio-server-1.1.463-amd64.deb
+sudo gdebi rstudio-server-1.1.463-amd64.deb
+rm rstudio-server-1.1.463-amd64.deb
 
 # Install nginx
 sudo apt-get install nginx -y
